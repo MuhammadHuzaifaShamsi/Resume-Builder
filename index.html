@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder | Muhammad Huzaifa | 329377</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+
+</head>
+<body>
+    <!-- INTERFACE -->
+    <div id="interface" class="showcase">
+        <div class="img_sec">
+            <img class="showcase_img" src="imgs/resumes.png" alt="Image Not Found">
+        </div>
+        <div class="generate_sec">
+            <h2 id="h2" class="h-font">Generate your resume with <br> one click!!</h2>
+            <button class="btn">Generate Now!</button>
+        </div>
+    </div>
+
+    <!-- MAIN RESUME BUILDING -->
+    <div id="body">
+        <div class="make_resume">
+            <h1 class="h-font">Start Making Your Resume!</h1>
+            <form>
+                <!-- PERSONAL INFORMATION-->
+                <div class="info_containers">
+                    <h3 class="h-font">Personal Information --></h3>
+                    <div class="res_fields">
+                        <label for="name">Full Name: </label>
+                        <br>
+                        <input type="text" placeholder="Enter Your Full Name" id="name">
+                    </div>
+    
+                    <div class="res_fields">
+                        <label for="email">Email Address: </label>
+                        <br>
+                        <input type="email" placeholder="Enter Your Email Address" id="email">
+                    </div>
+    
+                    <div class="res_fields">
+                        <label for="pn">Phone Number: </label>
+                        <br>
+                        <input type="number" placeholder="Enter Your Phone Number" id="pn">
+                    </div>
+                </div>
+
+                <!-- EDUCATION -->
+                <div class="info_containers">
+                    <h3 class="h-font">Education --></h3>
+                    <div class="res_fields">
+                        <label for="edu">Highest Education: </label>
+                        <br>
+                        <input type="text" placeholder="Enter Your Highest Education" id="edu">
+                    </div>
+                </div>
+
+                <!-- EXPERIENCE -->
+                <div class="info_containers">
+                    <h3 class="h-font">Experience --></h3>
+                    <div class="res_fields">
+                        <label for="exp">Add Experience: </label>
+                        <br>
+                        <input type="text" placeholder="Enter Your Experiences" id="exp">
+                    </div>
+                </div>
+
+                <!-- SKILLS -->
+                <div class="info_containers">
+                    <h3 class="h-font">Skills --></h3>
+                    <div class="skills_note">Note: place a comma (,) to separate each skill!</div>
+                    <div class="res_fields">
+                        <label for="skills">Add Skills: </label>
+                        <br>
+                        <input type="text" placeholder="Enter Your Skills" id="skills">
+                    </div>
+                </div>
+
+                <!-- BUTTONS -->
+                 <div class="btns">
+                    <button class="generate_btn">Generate</button>
+                    <button class="download_btn">Download</button>
+                 </div>
+            </form>
+        </div>
+        <div class="show_resume">
+            <h1 class="h-font">Your Resume Will up Here!</h1>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

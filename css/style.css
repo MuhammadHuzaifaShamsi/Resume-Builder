@@ -29,7 +29,6 @@ body {
     grid-template-columns: auto auto;
     height: 100vh;
     width: 100vw;
-    
 }
 
 .img_sec {
@@ -191,4 +190,43 @@ body {
 
 .show_resume h1 {
     margin-bottom: 0.75rem;
+}
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 3px;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+    .showcase {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .showcase div {
+        width: 100vw;
+        margin-bottom: 0;
+    }
+
+    .img_sec,
+    .generate_sec {
+        height: 50vh;
+        margin-bottom: 0;
+    }
+    
+    .make_resume,
+    .show_resume {
+        width: 70vw;
+    }
+
+    .res_fields input {
+        width: 50vw;
+    }
 }
